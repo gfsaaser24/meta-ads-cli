@@ -6,6 +6,9 @@ An [agent skill](https://github.com/vercel-labs/skills) that teaches your AI cod
 
 Manage the full ad stack without leaving the chat: campaigns, ad sets, ads, creatives, pixels/datasets, product catalogs/feeds/sets, ad accounts, and Pages — plus pull insights (spend, ROAS, CTR, CPC, conversions).
 
+> [!IMPORTANT]
+> **Not affiliated with or officially maintained by Meta.** This is an unofficial, community-maintained agent skill authored from Meta's published Ads CLI developer documentation. It wraps the third-party [`meta-ads`](https://pypi.org/project/meta-ads/) package and the [Meta Marketing API](https://developers.facebook.com/docs/marketing-apis/). "Meta", "Facebook", and "Instagram" are trademarks of Meta Platforms, Inc., used here for identification only. Commands and flags may drift as the underlying CLI and API change — always verify against the official docs before running anything that spends money.
+
 ## Install
 
 Install into any agent that supports skills (Claude Code, Cursor, etc.) with one command:

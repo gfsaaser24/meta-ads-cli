@@ -18,6 +18,10 @@ description: >-
 
 # Meta Ads CLI
 
+> Unofficial skill — not affiliated with or maintained by Meta. Written from Meta's
+> published Ads CLI developer docs and the third-party `meta-ads` package. Verify flags
+> against the official docs before any spend-affecting command, as they may drift.
+
 The `meta` command (PyPI package `meta-ads`) is a developer-friendly wrapper over
 the Meta Marketing API. It manages the full ad stack — campaigns, ad sets, ads,
 creatives, pixels/datasets, catalogs, product feeds/sets — and queries insights,
