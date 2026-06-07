@@ -58,6 +58,11 @@ meta --version
 If the script reports it needs `uv` or Python 3.12+, that environment can't run
 the CLI; tell the user rather than improvising another install path.
 
+The setup script and `meta` commands are bash-based. On **Windows**, run them inside
+**WSL** (Windows Subsystem for Linux) — if the user is on a native Windows shell with
+no WSL/bash available, tell them to install WSL first rather than trying to adapt the
+commands to PowerShell/cmd.
+
 ## Step 2 — Authenticate
 
 The CLI authenticates with a **Meta system user access token** and targets one

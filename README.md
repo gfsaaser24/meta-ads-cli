@@ -62,6 +62,7 @@ skills/meta-ads-cli/
 - An AI agent that supports the open skills format
 - A Meta system-user access token with Ads Management scopes and an ad account ID
 - Python 3.12+ available (the setup script provisions it via `uv` when missing)
+- A Unix-like shell — the setup script and CLI workflow are bash-based. **Windows users may need [WSL](https://learn.microsoft.com/windows/wsl/install)** (Windows Subsystem for Linux) installed to run the setup script and `meta` commands.
 
 ## License
 
